@@ -1,0 +1,20 @@
+// Colors Definitions
+
+$color-magenta: #ec008c;
+$color-lightGray: #ddd;
+$color-overlay: rgba(0, 0, 0, 0.4);
+$color-black: #000;
+$color-white: #fff;
+
+// Fonts Definitions
+
+$headline-mobile: 44px/48px 'HUGEAvantGardeBold', sans-serif;
+$headline-desktop:  120px/132px 'HUGEAvantGardeBold', sans-serif;
+$primary-navigation: 21px/48px 'HUGEAvantGardeBold', sans-serif;
+$secondary-navigation: 16px/48px 'Galaxie', serif;
+$copyright: 12px/16px 'Helvetica', regular;
+
+// Breakpoints Definitions
+
+$mobile: 'only screen and (max-width: 768px)';
+$desktop: 'only screen and (min-width: 768px)';

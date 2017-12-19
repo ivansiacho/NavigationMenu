@@ -1,0 +1,68 @@
+@import "/variables.scss";
+@import "/header.scss";
+@import "/fonts.scss";
+@import "/common.scss";
+
+.main-content {
+    position: relative;
+    
+    &__content {
+        font: $secondary-navigation;
+        margin: 0 auto;
+        max-width: 968px;
+        padding: 50px 24px;
+        & > p {
+            line-height: 2;
+        }
+    }
+
+    &__banner {
+        &__headline {
+            color: $color-black;
+            font-size: 44px;
+            left: 0;
+            margin: 50px 0px 0px 24px;
+            position: relative;
+            text-align: left;
+            transform: initial;
+        }
+        
+        &__image {
+            background: url('/images/background-image.jpg') center;
+            background-size: cover;
+            min-height: 240px;
+            overflow: hidden;
+        }
+    }
+}
+
+
+
+@media #{$desktop} {
+    .main-content {
+        &__banner {
+            position: relative;
+
+            &__headline {
+                color: $color-white;
+                font-size: 100px;
+                left: 50%;
+                margin: 0;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                width: 80%;
+            }
+
+            &__image {
+                min-height: 640px;
+                width: 100%;
+            }
+        }
+        
+        &__content {
+            padding: 60px 0;
+        }
+    }
+}
